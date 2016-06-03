@@ -1,0 +1,75 @@
+######################################################
+#### BACKENDLAYOUT: DEFAULT Serignac    ####
+######################################################
+mod {
+    web_layout {
+        BackendLayouts {
+            default_serignac {
+                title = Default, Serignac
+                config {
+          backend_layout {
+            colCount = 3
+            rowCount = 5
+            rows {
+              1 {
+                columns {
+                  1 {
+                    name = SubnavL
+                    rowspan = 2
+                  }
+                  2 {
+                    name = ColumnC
+                    rowspan = 4
+                    colPos = 0
+                  }
+                  3 {
+                    name = RechercheD
+                    colPos = 2
+                  }
+                }
+              }
+              2 {
+                columns {
+                  1 {
+                    name = AgendaD
+                    colPos = 2
+                  }
+                }
+              }
+              3 {
+                columns {
+                  1 {
+                    name = ContenuL
+                    rowspan = 2
+                    colPos = 1
+                  }
+                  2 {
+                    name = NewsImgD
+                    colPos = 2
+                  }
+                }
+              }
+              4 {
+                columns {
+                  1 {
+                    name = LiensD
+                    colPos = 2
+                  }
+                }
+              }
+              5 {
+                columns {
+                  1 {
+                    name = footer
+                    colspan = 3
+                    colPos = 11
+                  }
+                }
+              }
+            }
+          }
+          icon = EXT:bootstrap_package/Resources/Public/Images/BackendLayouts/default_subnavigation_left_3_columns.gif
+            }
+        }
+    }
+}
