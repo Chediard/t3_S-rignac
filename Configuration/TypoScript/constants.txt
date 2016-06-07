@@ -1,0 +1,8 @@
+page{
+	fluidtemplate{
+		templateRootPath = EXT:serignac/Resources/Private/Templates/Page/
+		layoutRootPath = EXT:serignac/Resources/Private/Layouts/Page/
+		partialRootPath = EXT:serignac/Resources/Private/Partials/Page/
+	}
+
+}
