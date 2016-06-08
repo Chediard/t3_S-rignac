@@ -41,3 +41,8 @@ lib.bandeau {
     select.pidInList = {$page.bandeau}
   }
 }
+
+#bienvenue
+lib.bienvenue= TEXT
+lib.bienvenue.wrap =<p>|</p>
+lib.bienvenue.value= {$page.bienvenue.msg}
