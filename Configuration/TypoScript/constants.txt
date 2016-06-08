@@ -1,21 +1,23 @@
 page{
-	fluidtemplate {
+	fluidtemplate{
 		templateRootPath = EXT:serignac/Resources/Private/Templates/Page/
 		layoutRootPath = EXT:serignac/Resources/Private/Layouts/Page/
 		partialRootPath = EXT:serignac/Resources/Private/Partials/Page/
 	
 	}
-        localisation {
-             	cc_url = http://www.agglo-agen.net/ 
+	bandeau = 1
+	
+	localisation{
+        cc_url = http://www.agglo-agen.net/ 
 		cc_title = vers le site de l'Agglomération d'Agen
 		cc_text = Agglomération d'Agen 
-        commune_url = http://www.lepassage.fr
-        commune_title = vers l'accueil site du Passage d'Agen 
-        commune_text =  Le Passage d'Agen2
-        }  
+     commune_url = http://www.lepassage.fr
+     commune_title = vers l'accueil site du Passage d'Agen 
+     commune_text =  Le Passage d'Agen2
+    }  
 	
 	bienvenue {
 		msg = bienvenue sur le site officiel de la commune
-        }
+    }
 	
 }
