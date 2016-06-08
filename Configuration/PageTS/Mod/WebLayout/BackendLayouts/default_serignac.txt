@@ -24,7 +24,7 @@ mod {
                   }
                   3 {
                     name = RechercheD
-                    colPos = 2
+                    colPos = 30
                   }
                 }
               }
@@ -32,7 +32,7 @@ mod {
                 columns {
                   1 {
                     name = AgendaD
-                    colPos = 2
+                    colPos = 31
                   }
                 }
               }
@@ -45,7 +45,7 @@ mod {
                   }
                   2 {
                     name = NewsImgD
-                    colPos = 2
+                    colPos = 32
                   }
                 }
               }
@@ -53,7 +53,7 @@ mod {
                 columns {
                   1 {
                     name = LiensD
-                    colPos = 2
+                    colPos = 33
                   }
                 }
               }
