@@ -36,5 +36,5 @@ page{
 
 		#Permet d'afficher un titre personnalisé au bouton de validation:
 		search.defaultSubmitValue = OK
-}
+	}
 }
