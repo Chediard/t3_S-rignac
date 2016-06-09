@@ -28,6 +28,7 @@ page{
 		1= EXT:serignac/Resources/Private/Partials/Page/
 		2= {$page.fluidtemplate.partialRootPath}
 	}
+	
 }
 
 	#bienvenue
