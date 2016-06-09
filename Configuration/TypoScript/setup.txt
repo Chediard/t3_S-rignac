@@ -25,6 +25,29 @@ page{
 			}
 		}		 
 	     }
+		 
+		##########################
+		### DATA PREPROCESSING ###
+		##########################
+		dataProcessing {
+			50 = BK2K\BootstrapPackage\DataProcessing\MenuProcessor
+			50 {
+				special = directory
+                special.value = {$page.footer.navdir}
+				includeNotInMenu = {$page.footer.notinmenu}
+                excludeUidList = {$page.footer.excludelist}
+				as = footernavigation
+			}
+			
+			60 = BK2K\BootstrapPackage\DataProcessing\MenuProcessor
+			60 {
+				levels = {$page.sitemapnav.levels}
+				excludeUidList = {$page.sitemapnav.excludelist}
+				as = sitemapnavigation
+			}      
+		}
+		
+		
 	}
 		
 	templateRootPath{
