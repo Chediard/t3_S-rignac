@@ -5,7 +5,7 @@ page{
 		partialRootPath = EXT:serignac/Resources/Private/Partials/Page/
 	
 	}
-	bandeau = 1
+	bandeau = 0
 
 	localisation {
              	cc_url = http://www.agglo-agen.net/
