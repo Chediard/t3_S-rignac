@@ -1,7 +1,13 @@
 <footer>
-<f:if condition="{showFooter}">
 <section class="footer-section">
-    <div id="footer" class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <f:render partial="Navigation/Footer" arguments="{_all}"/>
+            </div>
+        </div>
+    </div>
+	<div class="container">
         <div class="row">
             <div class="col-sm-12">
                 <f:cObject typoscriptObjectPath="lib.dynamicContentSlide" data="{pageUid: '{data.uid}', colPos: '11'}"/>
@@ -9,9 +15,7 @@
         </div>
     </div>
 </section>
-</f:if>
 
-<f:if condition="{showMeta}">
 <section class="meta-section">
     <div class="container">
         <div class="row">
@@ -23,5 +27,4 @@
         </div>
     </div>
 </section>
-</f:if>
 </footer>
