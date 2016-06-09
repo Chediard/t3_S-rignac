@@ -11,14 +11,14 @@ page{
              	cc_url = http://www.agglo-agen.net/
 				cc_title = vers le site de l'Agglomération d'Agen
 				cc_text = Agglomération d'Agen
-        commune_url = http://www.serignac-sur-garonne.fr/
+        commune_url = #
         commune_title = vers l'accueil site de Serignac
-        commune_text =  Serignac
+        commune_text =  Serignac sur Garonne
 	}
 	
 		
 	bienvenue {
-		msg = bienvenue sur le site officiel de la commune
+		msg = Bienvenue sur le site officiel de la commune
     }
 	
 	search {
